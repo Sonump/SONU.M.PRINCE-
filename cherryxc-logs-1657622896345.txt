@@ -1,0 +1,111 @@
+2022-07-12T10:41:23.725357+00:00 app[api]: Enable Logplex by user vilaxa4617@tebyy.com
+2022-07-12T10:41:23.738614+00:00 app[api]: Running release v5 commands by user vilaxa4617@tebyy.com
+2022-07-12T10:41:23.738614+00:00 app[api]: Attach DATABASE (@ref:postgresql-octagonal-82640) by user vilaxa4617@tebyy.com
+2022-07-12T10:41:23.748900+00:00 app[api]: @ref:postgresql-octagonal-82640 completed provisioning, setting DATABASE_URL. by user vilaxa4617@tebyy.com
+2022-07-12T10:41:23.748900+00:00 app[api]: Release v6 created by user vilaxa4617@tebyy.com
+2022-07-12T10:41:24.000000+00:00 app[api]: Build started by user vilaxa4617@tebyy.com
+2022-07-12T10:45:55.871620+00:00 app[api]: Deployed worker (4357c5962c69) by user vilaxa4617@tebyy.com
+2022-07-12T10:45:55.871620+00:00 app[api]: Release v7 created by user vilaxa4617@tebyy.com
+2022-07-12T10:45:56.000000+00:00 app[api]: Build succeeded
+2022-07-12T10:46:27.855272+00:00 app[api]: Scaled to worker@1:Free by user vilaxa4617@tebyy.com
+2022-07-12T10:46:58.211018+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2022-07-12T10:46:58.808194+00:00 heroku[worker.1]: State changed from starting to up
+2022-07-12T10:47:01.173245+00:00 app[worker.1]: 
+2022-07-12T10:47:01.173257+00:00 app[worker.1]: > abu-md@2.0.1 start
+2022-07-12T10:47:01.173257+00:00 app[worker.1]: > supervisor -s index.js
+2022-07-12T10:47:01.173257+00:00 app[worker.1]: 
+2022-07-12T10:47:01.214522+00:00 app[worker.1]: 
+2022-07-12T10:47:01.214960+00:00 app[worker.1]: Running node-supervisor with
+2022-07-12T10:47:01.214996+00:00 app[worker.1]:   program 'index.js'
+2022-07-12T10:47:01.215020+00:00 app[worker.1]:   --watch '.'
+2022-07-12T10:47:01.215040+00:00 app[worker.1]:   --extensions 'node,js'
+2022-07-12T10:47:01.215066+00:00 app[worker.1]:   --exec 'node'
+2022-07-12T10:47:01.215107+00:00 app[worker.1]: 
+2022-07-12T10:47:01.215216+00:00 app[worker.1]: Starting child process with 'node index.js'
+2022-07-12T10:47:01.222752+00:00 app[worker.1]: Watching directory '/jsl/Abu' for changes.
+2022-07-12T10:47:01.222791+00:00 app[worker.1]: Press rs for restarting the process.
+2022-07-12T10:47:04.299630+00:00 app[worker.1]: Session restored ✅
+2022-07-12T10:47:05.161717+00:00 app[worker.1]: crashing child
+2022-07-12T10:47:05.167139+00:00 app[worker.1]: Tue Jul 12 2022 16:17:05 GMT+0530 (India Standard Time)
+2022-07-12T10:47:05.167201+00:00 app[worker.1]: Starting child process with 'node index.js'
+2022-07-12T10:47:08.195378+00:00 app[worker.1]: Abu-MD V 2.0.1
+2022-07-12T10:47:08.321374+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:08.388587+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:09.316142+00:00 app[worker.1]: close
+2022-07-12T10:47:09.346046+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:09.352106+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:09.906370+00:00 app[worker.1]: close
+2022-07-12T10:47:09.973979+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:09.981235+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:10.750401+00:00 app[worker.1]: close
+2022-07-12T10:47:10.801986+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:10.807712+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:11.315789+00:00 app[worker.1]: close
+2022-07-12T10:47:11.357920+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:11.369693+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:12.229036+00:00 app[worker.1]: close
+2022-07-12T10:47:12.245073+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:12.248447+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:13.403559+00:00 app[worker.1]: close
+2022-07-12T10:47:13.449976+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:13.455803+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:14.173056+00:00 app[worker.1]: close
+2022-07-12T10:47:14.188526+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:14.191643+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:14.988438+00:00 app[worker.1]: close
+2022-07-12T10:47:15.015794+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:15.019107+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:15.489033+00:00 app[worker.1]: close
+2022-07-12T10:47:15.541937+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:15.550149+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:15.950794+00:00 app[worker.1]: close
+2022-07-12T10:47:15.965578+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:15.968855+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:16.309596+00:00 app[worker.1]: close
+2022-07-12T10:47:16.325506+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:16.332732+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:17.184264+00:00 app[worker.1]: close
+2022-07-12T10:47:17.201505+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:17.207513+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:17.642351+00:00 app[worker.1]: close
+2022-07-12T10:47:17.690031+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:17.707460+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:18.253266+00:00 app[worker.1]: close
+2022-07-12T10:47:18.269604+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:18.273428+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:19.179141+00:00 app[worker.1]: close
+2022-07-12T10:47:19.195120+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:19.199200+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:20.195150+00:00 app[worker.1]: close
+2022-07-12T10:47:20.233714+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:20.238569+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:21.054585+00:00 app[worker.1]: close
+2022-07-12T10:47:21.072755+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:21.077141+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:21.804729+00:00 app[worker.1]: close
+2022-07-12T10:47:21.861954+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:21.867847+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:27.512945+00:00 app[worker.1]: close
+2022-07-12T10:47:27.566631+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:27.572346+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:28.235651+00:00 app[worker.1]: close
+2022-07-12T10:47:28.253614+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:28.256783+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:28.773314+00:00 app[worker.1]: close
+2022-07-12T10:47:28.826124+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:28.837079+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:29.296528+00:00 app[worker.1]: close
+2022-07-12T10:47:29.315896+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:29.319884+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:30.212899+00:00 app[worker.1]: close
+2022-07-12T10:47:30.230928+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:30.236121+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:31.041652+00:00 app[worker.1]: close
+2022-07-12T10:47:31.068967+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:31.074619+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:31.907899+00:00 app[worker.1]: close
+2022-07-12T10:47:31.961953+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:31.967169+00:00 app[worker.1]: Bot Started ✅
+2022-07-12T10:47:32.546359+00:00 app[worker.1]: close
+2022-07-12T10:47:32.606071+00:00 app[worker.1]: Plugins installed ✅
+2022-07-12T10:47:32.612665+00:00 app[worker.1]: Bot Started ✅
